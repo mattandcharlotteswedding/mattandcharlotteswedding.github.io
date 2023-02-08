@@ -1,0 +1,24 @@
+.RVEQke{
+    background-color:black!important;
+}
+
+.cards img {
+    position: absolute;
+    max-width: 320px;
+}
+
+.cards {
+    opacity: 0.1;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.vh100{
+    height:100vh;
+}
