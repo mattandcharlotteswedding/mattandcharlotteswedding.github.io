@@ -22,6 +22,11 @@
   <script src="/src/wow.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/wow/0.1.12/wow.min.js"></script>
 
+  <!-- font -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Parisienne&display=swap" rel="stylesheet">
+
 </head>
 
 <body>
@@ -29,31 +34,37 @@
   <div class="container-fluid bg-light">
     <div class="container py-5">
       <div class="row justify-content-center vh100">
-        <div class="col-md-7 align-self-center">
-          <h1 class="display-5 fw-bold lh-1 mb-3 text-center wow fadeInUp animated" data-wow-delay=".5s">Matthew & Charlotte </h1>
-          <p class="wow animated fadeInUp text-center" data-wow-delay="1s">Lorem ipsum dolor sit amet
+        <div class="col-md-7 align-self-center" style="z-index:1;">
+          <h1 class="display-5 fw-bold lh-1 mb-3 text-center wow fadeInUp animated"
+            style="visibility: visible; animation-delay: 0.5s;">Matthew & Charlotte </h1>
+          <p class="wow animated fadeInUp text-center" style="visibility: visible; animation-delay: 0.8s;">Lorem ipsum
+            dolor sit amet
             consectetur adipisicing elit. Aperiam, corrupti! Deserunt
             porro numquam, animi
             quisquam quasi minima recusandae officia iure, qui fugit aliquam atque! Eius aperiam voluptas quae
             reprehenderit natus?</p>
+          <a href="#rsvp" class="wow animated fadeInUp text-center btn btn-primary"
+            style="visibility: visible; animation-delay: 1.2s;">R.S.V.P</a>
         </div>
         <div class="col-md-12 align-self-center cards">
-          <img class="img-fluid" src="/img/img1.png" alt="img1">
-          <img class="img-fluid" src="/img/img2.png" alt="img2">
-          <img class="img-fluid" src="/img/img3.png" alt="img3">
+          <img class="img-fluid img-1" src="/img/img1.png" alt="img1">
+          <img class="img-fluid img-2" src="/img/img2.png" alt="img2">
+          <img class="img-fluid img-3" src="/img/img3.png" alt="img3">
         </div>
       </div>
-      <div class="row">
-        <iframe
-          src="https://docs.google.com/forms/d/e/1FAIpQLSe87tlNYjib0SekDyG1YfmEyMrep6aHLkpQiG34jSqnRljisA/viewform?embedded=true"
-          width="100%" height="452" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe> </div>
-
-
-
 
     </div>
   </div>
 
+  <div class="container-fluid" id="rsvp">
+    <div class="container py-5">
+      <div class="row vh100">
+        <iframe
+          src="https://docs.google.com/forms/d/e/1FAIpQLSe87tlNYjib0SekDyG1YfmEyMrep6aHLkpQiG34jSqnRljisA/viewform?embedded=true"
+          width="100%" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
+      </div>
+    </div>
+  </div>
 </body>
 
 </html>
